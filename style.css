@@ -125,31 +125,10 @@ body{
         margin: 0 auto;
     }
     .mapimage img{
-        width: 50%;
+        width: 60%;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* here */
 @media (max-width: 850px){
     .header-container{
         width: 100%;

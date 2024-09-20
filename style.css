@@ -165,10 +165,9 @@ body{
         text-align: center;
     }
     .services{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     .service img{
-        width: 70vw;
         margin: 0 auto;
     }
     .header-container h3{

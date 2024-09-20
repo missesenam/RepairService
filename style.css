@@ -23,7 +23,6 @@ body{
 }
 .header-container h3{
     text-transform: uppercase;
-    text-align: center;
 }
 .mapimage{
     width: 100%;
@@ -48,7 +47,6 @@ body{
     align-items: center;
 }
 .service p{
-    text-align: center;
     text-transform: uppercase;
 }
 .service img{
@@ -65,18 +63,17 @@ body{
 }
 .service-area{
     display: flex;
-    gap: 10px;
+    gap: 30px;
     height: 200px;
 }
 .text{
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
-    justify-content: space-between;
 }
 .text div{
+    margin-top: 20px;
     color: var(--darkred);
-
 }
 .air-articles{
     margin: 40px 0;
@@ -101,7 +98,7 @@ body{
     flex-direction: column;
 }
 .repairer p{
-    margin: 5px 0;
+    margin: 25px 0;
 }
 @media (max-width: 1255px){
     .header-container{
@@ -110,7 +107,8 @@ body{
     }
     .mapimage{
         display: flex;
-        justify-content: center;
+        padding-left: 20px;
+        /* justify-content: center; */
     }
     .grid-container{
         grid-template-columns: repeat(2, 1fr);
@@ -173,7 +171,9 @@ body{
     .header-container h3{
         font-size: 7vw;
     }
-    
+    .mapimage{
+        padding-left: 0;
+    }
     .mapimage img{
         width: 100%;
     }

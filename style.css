@@ -20,6 +20,7 @@ body{
 }
 .header-container h3{
     text-transform: uppercase;
+    text-align: center;
 }
 .mapimage{
     width: 100%;

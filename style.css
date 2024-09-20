@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --darkred: rgb(129, 1, 1);
+}
 body{
     width: 100%;
 }
@@ -57,7 +60,7 @@ body{
 }
 .title{
     text-transform: uppercase;
-    color: rgb(129, 1, 1);
+    color: var(--darkred);
     margin: 10px 0;
 }
 .service-area{
@@ -72,14 +75,14 @@ body{
     justify-content: space-between;
 }
 .text div{
-    color: rgb(129, 1, 1);
+    color: var(--darkred);
 
 }
 .air-articles{
     margin: 40px 0;
 }
 .air-articles h2{
-    color: rgb(129, 1, 1);
+    color: var(--darkred);
     text-transform: capitalize;
     margin-bottom: 10px;
 }
@@ -89,7 +92,7 @@ body{
     gap: 20px;
 }
 .grid-container a{
-    color: rgb(129, 1, 1);
+    color: var(--darkred);
     text-transform: capitalize;
     margin-top: 5px;
 }
@@ -100,7 +103,6 @@ body{
 .repairer p{
     margin: 5px 0;
 }
-/* 1440px */
 @media (max-width: 1255px){
     .header-container{
         flex-direction: column;
@@ -186,42 +188,3 @@ body{
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 480 576 768 992 1200 */
-/* Mobile:
-
-320px: Smallest mobile devices
-375px: iPhone SE, iPhone 5s
-414px: iPhone 6/7/8
-480px: Older mobile devices
-Tablet:
-
-768px: iPad Mini, iPad Air
-1024px: iPad Pro
-Desktop:
-
-1280px: Common desktop resolution
-1440px: High-resolution desktop
-1920px: Widescreen desktop */

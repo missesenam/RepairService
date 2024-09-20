@@ -103,9 +103,11 @@ body{
 .repairer p{
     margin: 25px 0;
 }
+
 @media (max-width: 1255px){
     .header-container{
-        flex-direction: column;
+         flex-direction: column; 
+        width: 95%;
         height: auto;
     }
     .mapimage{
@@ -114,7 +116,7 @@ body{
     }
     .grid-container{
         grid-template-columns: repeat(2, 1fr);
-    }
+    }s
     .service-area{
         height:auto;
     }
@@ -123,13 +125,13 @@ body{
         margin: 0 auto;
     }
     .mapimage img{
-        width: 80%;
+        width: 50%;
     }
 }
-
 @media (max-width: 850px){
     .header-container{
         width: 100%;
+        flex-direction: column;
         }
     .header-container div:first-child{
             width: 100%;
@@ -147,7 +149,7 @@ body{
         grid-template-columns: 1fr;
     }
     .body-container{
-        width: 85%;
+        /* width: 85%; */
         margin: 0 auto;
     }
     .service-area{
@@ -156,6 +158,12 @@ body{
     .text div{
         margin-top: 10px;
         margin-bottom: 5px;
+    }
+    /* .mapimage{
+        padding-left: 0;
+    } */
+    .mapimage img{
+        width: 80%;
     }
 }
 
@@ -176,6 +184,9 @@ body{
     .header-container h3{
         font-size: 7vw;
     }
+    .mapimage{
+        padding-left: 0;
+    }
     .mapimage img{
         width: 100%;
     }
@@ -188,7 +199,14 @@ body{
     .repairer img{
         width: 100%;
     }
-    .mapimage{
-        padding-left: 0;
-    }
 }
+
+
+
+
+
+
+
+
+
+

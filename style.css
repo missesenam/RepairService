@@ -159,4 +159,8 @@ body{
     .header-container h3{
         text-align: center;
     }
+    .mapimage{
+        display: flex;
+        justify-content: center;
+    }
 }

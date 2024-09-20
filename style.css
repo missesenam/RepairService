@@ -35,7 +35,7 @@ body{
     width: 100%;
 }
 .mapimage img{
-    width: 100%;
+    width: 340px;
     height: 100%;
 }
 .services{
@@ -53,6 +53,8 @@ body{
     text-transform: uppercase;
 }
 .service img{
+    /* imge width */
+    width: 150px;
     border-radius: 50%;
 }
 .body-container{
@@ -103,109 +105,58 @@ body{
 .repairer p{
     margin: 25px 0;
 }
+/* media query */
 
-@media (max-width: 1255px){
-    .header-container{
-         flex-direction: column; 
-        width: 95%;
-        height: auto;
-    }
-    .mapimage{
-        display: flex;
-        padding-left: 20px;
-    }
-    .grid-container{
-        grid-template-columns: repeat(2, 1fr);
-    }s
-    .service-area{
-        height:auto;
-    }
-    .body-container{
-        width: 95%;
-        margin: 0 auto;
-    }
-    .mapimage img{
-        width: 60%;
-    }
-}
-
-@media (max-width: 850px){
-    .header-container{
-        width: 100%;
-        flex-direction: column;
-        }
-    .header-container div:first-child{
-            width: 100%;
-        }
-    .header-container h3{
-        text-align: center;
-    }
-    .service img{
-        width: 90%;
-    }
-    .services{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .service-area{
-        flex-direction: column;
-        height: auto;
-    }
-    .grid-container{
-        grid-template-columns: 1fr;
-    }
-    .body-container{
-        width: 85%;
-        margin: 0 auto;
-    }
-    .text div{
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-    .mapimage img{
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-container{
+.repairer img{
     width: 100%;
-    flex-direction: column;
+}
+@media (max-width: 1150px){
+    .header-container{
+       width: 95%;
+   } 
+   .body-container{
+    width: 95%;
+}
+.mapimage img{
+    width: 100%;
+}
+}
+
+
+@media (max-width: 980px){
+    .header-container{
+        flex-direction: column; 
+        height: auto;
+   } 
+   .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+   }
+.mapimage img{
+    width: 340px;
+}
+.service-area{
+    height: auto;
+}
+.service img{
+    width: 100%;
+}
+}
+
+@media (max-width: 690px){
+    .services{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .service-area{
+        flex-direction: column;
+        height: auto;
+    }
+    .grid-container{
+        grid-template-columns: 1fr
+       }
+    .mapimage img{
+    width: 90%;
     }
     .header-container h3{
         text-align: center;
     }
-    .services{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .service img{
-        margin: 0 auto;
-    }
-    .header-container h3{
-        font-size: 7vw;
-    }
-    .mapimage{
-        padding-left: 0;
-    }
-    .mapimage img{
-        width: 100%;
-    }
-    .body-container{
-        width: 95%;
-    }
-    .repairer{
-        width: 100%;
-    }
-    .repairer img{
-        width: 100%;
-    }
 }
-
-
-
-
-
-
-
-
-
-
